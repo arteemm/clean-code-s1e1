@@ -34,11 +34,11 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.new-task__container {
+.add__container {
   display: flex;
 }
 /* сброс стилей */
-.ul {
+ul {
   margin: 0;
   padding: 0px;
 }
@@ -65,7 +65,7 @@ button{
 }
 /* Heading */
 .section-title,
-.add__label {
+.add__label__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -136,7 +136,7 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-#completed label {
+.completed label {
   text-decoration: line-through;
   color: #888;
 }
